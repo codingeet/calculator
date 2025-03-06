@@ -10,12 +10,11 @@
 </head>
 
 <body>
-    <h1>Calculator</h1>
     <div class="container">
         <div class="calculator">
 
             <form>
-                <div>
+                <div >
                     <input type="text" name="display" class="output" id="mathInput">
                 </div>
                 <div>
@@ -45,16 +44,20 @@
                 </div>
                 <div>
                     <button type="button" value="%" onclick="display.value +='%'" class="operator">%</button>
-                    <button type="button" value="0" onclick="display.value +='0'" class="operator">0</button>
+                    <button type="button" value="0" onclick="display.value +='0'">0</button>
                     <button type="button" value="." onclick="display.value +='.'" class="operator">.</button>
                     <button type="button" value="=" onclick="display.value = eval(display.value)"
                         class="operator">=</button>
                 </div>
 
-
+<div>
+    
+</div>
 
             </form>
+           
         </div>
+        <div><h1 class="cal">Calculator  </h1></div>
     </div>
 </body>
 

@@ -1,7 +1,7 @@
 
 *{
-    /* margin: 0; */
-    /* padding: 0; */
+     margin: 0; 
+    padding: 0;
     box-sizing: border-box;
 }
 .container{
@@ -10,7 +10,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(123, 116, 116);
+     background-color: rgb(123, 116, 116); 
+    /* background-image: grey; */
     font-size: 2.2rem;
     font-weight: bold;
 }
@@ -33,18 +34,35 @@
     transform: translateY(4px);
 }
    button:active {
-    background-color: rgb(235, 160, 218);
+    background-color: rgb(39, 87, 36);
     box-shadow: 0 5px rgb(102, 157, 157);
     transform: translateY(4px);
   }
 .output{
-    min-width:  330px; 
     min-height: 50px;
     border-radius: 5px;
     margin-left: 10px;
     font-weight: bold;
-    font-size: large;
+    font-size: 25px;
+    padding: 10px;
+    max-width: 340px;
+    background-color: #e7c576;
 }
-form input.operator{
-    color: rgb(193, 70, 70);
+.operator{
+    color: rgb(206, 112, 116);
+}
+.cal{
+    color: rgb(59, 68, 190);
+    margin: 20px;
+    padding: 8px;
+    font-size: 50px;
+}
+form.input{
+  display: flex; 
+  justify-content: flex-end; 
+  margin: 20px 0px;
+}
+form input.output{
+    text-align: right;
+    
 }
